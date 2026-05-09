@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Sensitive Data (NEVER COMMIT THESE!)
+config/config.json
+# Client-only PyInstaller bundle (Worker URL + token); see bundle.overrides.example.json
+config/bundle.config.json
+config/bundle.overrides.json
+pyrogram_sessions/
+pyrogram_sessions/**
+*.session
+*.session-journal
+
+# Database & Logs
+telegrambot.db
+telegrambot.db-journal
+telegrambot.db-shm
+telegrambot.db-wal
+logs/
+logs/**
+*.log
+
+# Trained ML models (built from personal data, not for version control)
+classifier/model.pkl
+*.pkl
+
+# Backups
+backups/
+backups/**
+*.backup
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+*.zip
+*.tar.gz
+installer/Output/

@@ -1,0 +1,34 @@
+{
+  "_comment": "Installed app: LLM API keys are NOT read from this file — only from your Cloudflare Worker (GET /api/keys). Do not put openai_key or gemini_key here.",
+  "telegram": {
+    "api_id": 0,
+    "api_hash": "YOUR_API_HASH_HERE",
+    "phone_number": "+1234567890"
+  },
+  "api": {
+    "openai_model": "gpt-4o-mini",
+    "gemini_model": "gemini-2.5-flash",
+    "timeout": 30
+  },
+  "database": {
+    "path": "telegrambot.db",
+    "session_dir": "pyrogram_sessions",
+    "backup_dir": "backups"
+  },
+  "ui": {
+    "theme": "Dark",
+    "window_width": 1200,
+    "window_height": 800,
+    "font_size": 10
+  },
+  "bot": {
+    "of_link": null
+  },
+  "cloudflare": {
+    "enabled": true,
+    "worker_url": "https://YOUR-WORKER.YOUR_SUBDOMAIN.workers.dev",
+    "auth_token": "YOUR-WORKER-BEARER-TOKEN",
+    "fallback_to_local": false,
+    "timeout": 10
+  }
+}

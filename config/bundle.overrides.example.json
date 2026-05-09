@@ -1,0 +1,10 @@
+{
+  "_comment": "Copy to bundle.overrides.json (gitignored) before running installer\\build.bat to bake Cloudflare into the shipped .exe for a specific client.",
+  "cloudflare": {
+    "enabled": true,
+    "worker_url": "https://YOUR-WORKER.YOUR_SUBDOMAIN.workers.dev",
+    "auth_token": "YOUR-WORKER-BEARER-TOKEN",
+    "fallback_to_local": false,
+    "timeout": 10
+  }
+}
